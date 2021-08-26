@@ -1,0 +1,434 @@
+/*
+Colours
+*/
+/*
+Sizes
+*/
+/*
+Media Query Steps
+*/
+/*
+Fonts
+*/
+
+.timeline .era .events .moment strong {
+	font-weight:500 !important;
+}
+body {
+	margin: 0
+	font-family: 'Oswald', sans-serif !important;
+}
+body {
+	width: 100%;
+	font-family: 'Oswald', sans-serif !important;
+*zoom:1
+}
+body:before, body:after {
+	content: "";
+	display: table
+	font-family: 'Oswald', sans-serif !important;
+}
+body:after {
+	clear: both
+	font-family: 'Oswald', sans-serif !important;
+}
+*, *:after, *:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box
+	font-family: 'Oswald', sans-serif !important;
+}
+body {
+	width: 100%;
+ *zoom: 1;
+ font-family: 'Oswald', sans-serif !important;
+}
+body:before, body:after {
+	content: "";
+	display: table;
+	font-family: 'Oswald', sans-serif !important;
+}
+body:after {
+	clear: both;
+	font-family: 'Oswald', sans-serif !important;
+}
+.generic-header {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+ *zoom: 1;
+	overflow: hidden;
+	background: no-repeat center top;
+	background-size: cover;
+	padding: 1em 0;
+}
+.generic-header:before, .generic-header:after {
+	content: "";
+	display: table;
+}
+.generic-header:after {
+	clear: both;
+}
+.collage{
+	position:relative;
+	display:inline-block;
+	width:100%;
+	margin-top: 70px;}
+ @media screen and (min-width: 1280px) {
+.generic-header {
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+}
+ @media screen and (min-width: 1280px) and (min-width: 1350px) {
+.generic-header {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+}
+ @media screen and (min-width: 1280px) and (min-width: 1440px) {
+.generic-header {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+}
+ @media screen and (min-width: 1280px) and (min-width: 1600px) {
+.generic-header {
+	padding-left: 12%;
+	padding-right: 12%;
+}
+}
+.generic-header h2 {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+	font-size: 3em;
+	margin-top: 1em;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+}
+.main {
+	display: block;
+	width: 100%;
+	margin: 0 auto;
+ *zoom: 1;
+}
+.main:before, .main:after {
+	content: "";
+	display: table;
+}
+.main:after {
+	clear: both;
+}
+ @media screen and (min-width: 1280px) {
+.main {
+	padding-left: 6%;
+	padding-right: 6%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+}
+ @media screen and (min-width: 1280px) and (min-width: 1350px) {
+.main {
+	padding-left: 8%;
+	padding-right: 8%;
+}
+}
+ @media screen and (min-width: 1280px) and (min-width: 1440px) {
+.main {
+	padding-left: 10%;
+	padding-right: 10%;
+}
+}
+ @media screen and (min-width: 1280px) and (min-width: 1600px) {
+.main {
+	padding-left: 12%;
+	padding-right: 12%;
+}
+}
+ @media screen and (min-width: 1480px) and (max-width: 1950px) {
+.timeline .era .events .moment strong {
+	font-weight:500 !important;
+}
+ }
+ 
+.main .main-intro {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+	padding-top: 1.1em;
+	padding-bottom: 1.1em;
+	margin-bottom: 1.1em;
+	font-weight: 200;
+	font-size: 1.6em;
+	line-height: 1.4em;
+}
+ @media screen and (min-width: 1010px) {
+.main .main-intro {
+	display: inline-block;
+	float: left;
+	width: 83.33333%;
+	padding: 0 20px;
+	padding-top: 1.4em;
+	padding-bottom: 0.6em;
+	font-size: 1.9em;
+	margin-bottom: 1.4em;
+}
+}
+.main .main-body {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+	font-family: 'Oswald', sans-serif !important;
+}
+ @media screen and (min-width: 570px) {
+.main .main-body {
+	display: inline-block;
+	float: left;
+	width: 75%;
+	padding: 0 20px;
+	margin-left: 25%;
+	font-family: 'Oswald', sans-serif !important;
+}
+}
+.main .main-body p {
+	max-width: none;
+	font-family: 'Oswald', sans-serif !important;
+}
+/*@media screen and (min-width: 720px) {
+.main .main-half {
+	display: inline-block;
+	float: left;
+	width: 50%;
+	padding: 0 20px;
+	margin-left: 0%;
+}
+}*/
+.timeline {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+}
+.timeline > .title {
+	margin-bottom: 1em;
+}
+ @media screen and (max-width: 720px) {
+.timeline {
+	margin: 1em 0 2em 0;
+}
+.timeline h6 {
+	font-size: 16px;
+}
+.timeline .era {
+	border: 1px solid #d9d9d9;
+	border-bottom: 1px solid transparent;
+	margin: 0;
+	padding: 1em;
+}
+.timeline .era .title {
+	display: block;
+	overflow: hidden;
+	font-size: 16px;
+	color: #7a7977;
+	line-height: 1em;
+	font-weight: 400;
+	margin: -12px;
+	padding: 12px 12px 10px;
+	transition: all 1s;
+	-webkit-transition: all 0.7s;
+}
+.timeline .era .title:hover {
+	border: none;
+}
+.timeline .era .title .left {
+	float: left;
+}
+.timeline .era .title .right {
+	float: right;
+}
+.timeline .era .moment {
+	margin: 1em 0;
+}
+.timeline .era .moment strong {
+	display: block;
+	margin: 0;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+.timeline .era .moment span {
+	display: block;
+	margin: 0;
+	font-size: 14px;
+	line-height: 1.2em;
+}
+.timeline .era .moment.right {
+	text-align: left;
+}
+.timeline .era .moment.right strong {
+	color: #737476;
+}
+.timeline .era .moment.left strong {
+	color: #F57D24;
+}
+.timeline .era:hover .title {
+	background: #eef0f1;
+}
+.timeline .era.show .title {
+	background: #99a5ad;
+	color: white;
+}
+.timeline .era.show .title .left {
+	font-weight: 700;
+}
+.timeline .era:first-child {
+	border-radius: 5px 5px 0 0;
+	overflow: hidden;
+}
+.timeline .era:last-child {
+	border-bottom: 1px solid #d9d9d9;
+	border-radius: 0 0 5px 5px;
+}
+}
+ @media screen and (min-width: 720px) {
+.timeline {
+	display: inline-block;
+	float: left;
+	width: 100%;
+	padding: 0 20px;
+	margin-top: 0.4em;
+	margin-bottom:50px;
+}
+.timeline > .title {
+	text-align: center;
+}
+.timeline > .title h6 {
+	display: inline-block;
+	padding: 10px 15px 10px 15px;
+	border-radius: 4px;
+	line-height: 1em;
+	background: #f57d24;
+	color: white;
+}
+.timeline .era {
+	position: relative;
+}
+.timeline .era .title {
+	display: block;
+	padding: 1em 0;
+	text-decoration: none;
+	font-weight: 400;
+	font-size: 16px;
+	color: #7a7977;
+	overflow: hidden;
+	position: relative;
+	z-index: 10;
+}
+.timeline .era .title:hover {
+	border: none;
+}
+.timeline .era .title .left {
+	float: left;
+	width: 45%;
+	text-align: right;
+}
+.timeline .era .title .right {
+	display: none;
+	float: right;
+	width: 45%;
+	text-align: left;
+}
+.timeline .era .events {
+	overflow: hidden;
+	padding-bottom: 2em;
+}
+.timeline .era .events .moment {
+	margin: 0.6em 0;
+	position: relative;
+}
+.timeline .era .events .moment strong {
+	display: block;
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 1.4em;
+}
+.timeline .era .events .moment span {
+	display: block;
+	line-height: 1.4em;
+}
+.timeline .era .events .moment:after {
+	content: '';
+}
+.timeline .era .events .moment.left {
+	clear: left;
+	float: left;
+	width: 45%;
+	text-align: right;
+}
+.timeline .era .events .moment.left strong {
+	color: #f57d24;
+	letter-spacing:0px;
+}
+.timeline .era .events .moment.left span {
+	letter-spacing:0px;
+}
+.timeline .era .events .moment.left:after {
+	clear: left;
+}
+.timeline .era .events .moment.right {
+	clear: right;
+	float: right;
+	width: 45%;
+}
+
+.timeline .era .events .moment.right strong {
+	color: #737476;
+	letter-spacing:0px;
+}
+.timeline .era .events .moment.right span {
+	letter-spacing:0px;
+}
+.timeline .era .events .moment.right:after {
+	left: -10%;
+}
+.timeline .era.show .title {
+	color: #4e4e4e;
+	font-weight: 700;
+}
+.timeline .era.show .title .right {
+	display: block;
+}
+.timeline .era:before {
+	content: '';
+	position: absolute;
+	z-index: 1;
+	width: 50%;
+	height: 100%;
+	border-right: 3px solid #858688;
+	margin-left: 1px;
+}
+.timeline .era:after {
+	content: '';
+	position: absolute;
+	z-index: 2;
+	top: 0;
+	left: 49.2%;
+	margin-left: -5px;
+	margin-top: 18px;
+	background:url(sun.png);
+	background-repeat:no-repeat;
+	height:31px;
+	width:30px;
+	/*background: #2b4e95;*/
+	
+	
+}
+}

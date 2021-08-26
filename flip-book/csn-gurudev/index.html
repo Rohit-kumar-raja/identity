@@ -1,0 +1,61 @@
+<!--Author: W3layouts
+
+<!--DOCTYPE HTML-->
+<html>
+<head>
+<title>CSN Builders in Jamshedpur | Residential Projects | Commercial Projects| Plotting Projects | Hospitality Projects</title>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+<!-- Custom Theme files -->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" type="image/x-icon" href="favicon-ico1.png">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+<meta name="keywords" content="" />
+<!--Google Fonts-->
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<!--Google Fonts-->
+<script src="validator/gen_validatorv31.js" type="text/javascript"></script>
+</head>
+<body>
+<!--contact form start here-->
+ <h1> Contact Form</h1>
+<div class="contact"> 
+	<div class="contact-top">
+		 <h2>Contact</h2>
+    </div>
+	<div class="fiel">
+	<form action="mail.php" name="registrationform" method="post">
+		<input type="text" name="name1" class="user" placeholder="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" />
+		<input type="text" name="id" class="email Address" placeholder="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}"  />
+		<input type="text" name="mobile" class="phone" placeholder="Phone Number" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone Number';}"  />
+		<textarea class="text" name="msg" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}"  > Message </textarea>
+	</div>
+	<div class="send">
+		   <input type="submit"  value="Submit"/>
+	</div>
+	</form>
+</div>	
+<div class="copyright">
+	<p>Design by <a href="http://i-ns.in/" target="_blank"> Infinite Net Solution </a></p>
+</div>	
+<!--contact form end here-->
+<script language="JavaScript" type="text/javascript">// <![CDATA[
+// Code for validating the form
+// Visit http://www.javascript-coder.com/html-form/javascript-form-validation.phtml
+// for details
+var frmvalidator  = new Validator("registrationform");
+frmvalidator.addValidation("name1","req","Please provide your name"); 
+frmvalidator.addValidation("name1","alpha_s","Please provide your name ");
+frmvalidator.addValidation("id","req","Please provide your email");
+frmvalidator.addValidation("id","email","Please provide your valid email id ");
+frmvalidator.addValidation("mobile","req","Please provide your mobile number"); 
+frmvalidator.addValidation("mobile","num","Please enter number only");
+frmvalidator.addValidation("mobile","minlen=10","Plesas enter valid 10 digit mobile number");
+frmvalidator.addValidation("mobile","maxlen=15","Plesas enter valid 10 digit mobile number");
+
+frmvalidator.addValidation("address","req","Please Provide Your Addeess");
+
+// ]]></script>
+</body>
+</html>

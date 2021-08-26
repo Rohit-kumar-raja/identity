@@ -1,0 +1,810 @@
+/*@media (max-width: 599px) {
+	.banklogo-list li {
+    margin-left: 28% !important ;
+    margin-right: 50px;
+    margin-top: 30px;
+
+}
+.apurv-logo {
+    margin: 13px;
+}
+.prabh-logo {
+    margin-left: -29px;
+    margin-top: 35px;
+    width: 125% !important;
+}
+}*/
+/*@media (min-width: 600px) and (max-width: 1000px) {
+	.banklogo-list li {
+    margin-left: 103px ;
+    margin-right: 50px;
+    margin-top: 30px;
+}
+}*/
+@media (max-width: 1199px) {
+	.arrow-top-main {
+    display: none;
+}
+.parallax section {
+	background-attachment: scroll;
+	background-image:url("../upload/parallax26.jpg");
+	background-color: rgba(0, 0, 0, 0);
+	background-position: center 0;
+	background-repeat: no-repeat;
+	padding: 1px 40px;
+}
+
+	ul.device-list li:first-child {
+	    max-width: 315px;
+	}
+
+	ul.device-list li.device2 {
+	    padding-top: 38px;
+	    max-width: 280px;
+	}
+
+	ul.device-list li.device3 {
+	    padding-top: 42px;
+	    max-width: 138px
+	}
+
+	ul.device-list li.device4 {
+	    padding-top: 87px;
+	    max-width: 48px;
+	}
+
+	.staf-social li a {
+		width: 25px;
+		height: 25px;
+	}
+
+	.staf-social li a i {
+		line-height: 25px;
+	}
+
+	.gender-list li a i {
+	    font-size: 60px;
+	}
+
+	.stars-list li a i {
+		font-size: 34px;
+	}
+
+	ul.product-list li a {
+		width: 50px;
+	}
+
+	.convertible-banner p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+
+	ul.flickr-list li a {
+		max-width: 62px;
+	}
+
+	.modern_medium_light {
+		width: 240px;
+	}
+
+	.portfolio-container {
+		width: 970px;
+	}
+	
+	.sun_square-gallery {
+		width: 870px;
+	}
+
+	.with-4-col .portfolio-container .work-post {
+		width: 212px;
+	}
+
+	.with-3-col .portfolio-container .work-post {
+		width: 293px;
+	}
+
+	.with-2-col .portfolio-container .work-post {
+		width: 455px;
+	}
+	
+	.with-4-col .sun_square-gallery .work-post {
+		width: 212px;
+	}
+
+	.with-3-col .sun_square-gallery .work-post {
+		width: 293px;
+	}
+
+	.with-2-col .sun_square-gallery .work-post {
+		width: 455px;
+	}
+
+	ul.tab-links li a {
+		padding: 10px 0; 
+	}
+	ul.tab-links1 li a {
+		padding: 10px 0; 
+	}
+
+	.services-box img {
+		display: none;
+	}
+}
+
+@media (max-width: 991px) {
+
+	.navbar-default .navbar-nav > li {
+		margin-left: 18px;
+		margin-right: 0 !important;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+		font-size: 13px;
+		padding-right: 0!important;
+	}
+
+	.navbar-default .navbar-nav > li.drop:after {
+		content: '';
+	}
+
+	.navbar-brand {
+		padding: 35px 15px;
+		max-width: 180px;
+	}
+
+	.navbar-brand img {
+		width: 100%;
+	}
+
+	.modern_medium_light {
+		width: 200px;
+	}
+
+	ul.device-list {
+		text-align: center !important;
+		width: 100%;
+	}
+
+	ul.device-list li {
+		display: block;
+		margin: 0 0 10px 0;
+		width: 100% !important;
+		float: none;
+		text-align: center;
+		max-width: 100% !important;
+	}
+
+	ul.device-list li img {
+		max-width: 100%;
+		margin: 0 auto;
+	}
+
+	ul.device-list li:after {
+		content: '';
+		width: 0;
+	}
+
+	.message-content p {
+		font-size: 16px;
+		padding: 20px;
+		line-height: 24px;
+	}
+
+	.staff-post {
+		height: auto;
+	}
+
+	.gender-list li {
+		margin-left: 17px;
+	}
+
+	.gender-list li i {
+		font-size: 40px !important;
+	}
+
+	.stars-list li {
+		margin-left: 13px;
+	}
+
+	.convertible-banner p {
+		line-height: 25px;
+	}
+
+	ul.flickr-list li {
+		margin-right: 13px !important;
+	}
+
+	.portfolio-container {
+		width: 750px;
+	}
+
+	.with-4-col .portfolio-container .work-post {
+		width: 220px;
+	}
+
+	.with-3-col .portfolio-container .work-post {
+		width: 220px;
+	}
+
+	.with-2-col .portfolio-container .work-post {
+		width: 345px;
+	}
+
+	ul.filter li a {
+		font-size: 13px;
+		padding: 10px;
+	}
+
+	.about-us-text,
+	.skills-progress {
+		margin-bottom: 30px;
+	}
+
+	.slider-caption p.flex-caption {
+		font-size: 40px;
+	}
+}
+
+@media (max-width: 760px) {
+	.tparrows {
+    display: none !important;
+	visibility:hidden;
+}
+	.top-line p {
+		float: none;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.top-line1 p {
+		float: none;
+		text-align: center;
+		margin-bottom: 10px;
+	}
+
+	ul.social-icons {
+		float: none;
+		text-align: center;
+	}
+
+	.navbar {
+		background: rgb(255,255,255) !important;
+	}
+	.navbar-brand img {
+		width: 70%;
+	}
+	#slider {
+    margin-top: -18px;
+}
+	.navbar-brand {
+		padding: 4px 15px;
+	}
+
+	.navbar-toggle {
+		margin-top: 18px;
+	}
+
+	.navbar-default .navbar-nav > li > a {
+	    font-size: 14px;
+	    padding: 7px 0 !important;
+	    border-top: none !important;
+	    font-weight: 600;
+	}
+
+	.navbar-default .navbar-nav > li {
+	    margin-left: 15px !important;
+	}
+
+	.navbar-default .navbar-nav > li:first-child {
+	    margin-top: 5px;
+	}
+
+	ul.drop-down {
+		position: relative;
+		visibility: visible;
+		margin-left: 10px;
+	}
+
+	ul.drop-down li a {
+		background: none;
+		text-transform: capitalize;
+		border: none;
+		color: #7d7d7d;
+		padding: 3px 0;
+	}
+	.bg-txt div {
+    padding: 5px 5px 0 !important;
+}
+
+	.modern_medium_light {
+		width: 115px;
+	}
+
+	.modern_medium_light i {
+		margin-bottom: 0;
+	}
+.col-md-test {
+    padding: 0;
+}
+	.bx-wrapper .bx-controls-direction a {
+		display: none;
+	}
+
+	.message-content p {
+		font-size: 13px;
+		padding: 20px;
+		line-height: 20px;
+	}
+
+	.tparrows {
+		display: none !important;
+	}
+
+	.message-content {
+		margin-left: 155px;
+    width: 46.5%;
+	}
+
+	.portfolio-container {
+		width: 100%;
+		margin-left: 0;
+	}
+	
+	.sun_square-gallery{
+		width: 100%;
+		margin-left: 0;
+	}
+
+	.with-4-col .portfolio-container .work-post,
+	.with-3-col .portfolio-container .work-post,
+	.with-2-col .portfolio-container .work-post {
+		width: 100%;
+		margin: 15px 0;
+	}
+	
+	
+	.with-4-col .sun_square-gallery .work-post,
+	.with-3-col .sun_square-gallery .work-post,
+	.with-2-col .sun_square-gallery .work-post {
+		width: 100%;
+		margin: 15px 0;
+	}
+
+
+	ul.filter li {
+		border: none;
+	}
+
+	ul.filter li a.active:after,
+	ul.filter li a:hover:after {
+		content: '';
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		border: none;
+	}
+
+	ul.filter li a i {
+		font-size: 14px;
+	}
+
+	.slider-caption p.flex-caption {
+		font-size: 30px;
+	}
+
+	.flex-direction-nav {
+		display: none;
+	}
+
+	.flex-control-nav {
+		bottom: 5px;
+	}
+
+	.page-banner h2 {
+		float: none;
+		text-align: center;
+	}
+
+	ul.page-tree {
+		float: none;
+		text-align: center;
+	}
+
+	ul.depth {
+		margin-left: 0px;
+	}
+}
+@media (min-width: 1050px) and (max-width: 1200px) {
+	.navbar-default .navbar-nav > li > a {
+    padding: 40px 10px 40px 20px !important;
+}
+.modern_medium_light {
+    width: 180px;
+}
+}
+@media (min-width: 359px) and (max-width: 400px) {
+.ca-item-main img{
+		margin:0 52px;
+		width:82%;
+		}
+}
+@media (min-width: 420px) and (max-width: 700px) {
+	.sub-heading {
+    font-size: 12px;
+	margin-top:0;
+}
+.heading {
+    font-size: 15px;
+}
+.text-banner-bg {
+    margin-top: -15px !important;
+    padding: 11px !important;
+}
+}
+@media (max-width: 581px) {
+	.bg-site h4 a {
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: normal;
+    padding: 0 5px !important;
+}
+.event_beyond {
+    margin-left: -11px;
+    margin-top: -10px;
+}
+/*.prabh-logo {
+    margin-left: -57px !important;
+    margin-top: 42px !important;
+    width: 148% !important;
+}
+.apurv-logo {
+    margin-top: 26px !important;
+}
+
+ul.banklogo-list li a img {
+    margin: 18px 0 0 -42px;
+}*/
+	input.gsc-input {
+    border: 1px solid #DDDDDD;
+    padding: 1px 6px;
+    width: 80px !important;
+}
+	ul.social-icons {
+    float: left;
+    margin-left: 20%;
+    text-align: center;
+}
+.footersocial .social-icons {
+    margin-left: 0;
+}
+	.chronicle_icon h3 {
+    letter-spacing: 0px;
+}
+.chronicle_icon h2 {
+    letter-spacing: 1px !important;
+}
+	.bg-txt .caption {
+    padding: 5px 5px 0 !important;
+}
+.bg-txt div {
+    padding: 0 !important;
+}
+	.ca-item-main img{
+		margin:0 42px;
+		width:82%;
+		}
+	.top-line p span {
+    border-left: none;
+	}
+
+	.modern_medium_light {
+		margin:0 -58px 0 30px !important;
+		width: auto;
+		background: none;
+	}
+	header.active .navbar-brand {
+    margin-left: 20px;
+}
+.credei {
+    background: url(../images/credei_m.png);
+}
+.credei {
+    height: 39px;
+    margin-left: 0;
+    margin-top: 475px;
+    position: absolute;
+    width: 147px;
+}
+.credei:hover {
+    background: url(../images/credei_m.png);
+}
+.credei:hover {
+   margin-left: 0;
+    margin-top: 475px;
+    position: absolute;
+    width: 147px;
+    height: 39px;
+}
+	.fullwidthbanner-container {
+    margin-top: 50px;
+}
+	.welcome-txt h1 {
+    font-size: 16px;
+}
+
+	.tp-bullets.simplebullets.round .bullet {
+		display: none;
+	}
+
+	.convertible-banner a {
+		float: none;
+		margin-bottom: 10px;
+		margin-left: 60px;
+	}
+
+	.convertible-banner p {
+		margin-right: 0 !important;
+		font-size: 12px !important;
+		line-height: 18px !important;
+	}
+
+	.top-bar {
+		height: auto;
+		text-align: center;
+	}
+
+	.top-bar .left-block {
+		float: none;
+		margin-bottom: 15px;
+	}
+
+	.top-bar .right-block {
+		float: none;
+	}
+
+	.blog-box.with-one-col .inner-item {
+		float: none;
+	}
+}
+
+@media (max-width: 768px) {
+	.teamtable {
+		width:70%;
+	}
+	.footersocial ul {
+		float:left;
+	}
+}
+@media (min-width: 981px) and (max-width: 1050px) {
+	.navbar-default .navbar-nav > li > a {
+    padding: 40px 25px 40px 2px !important;
+}
+.message-content {
+    margin-left: 130px;
+	height: 340px;
+}
+.bxslider li img {
+    margin-top: 0px;
+    max-width: 115px;
+}
+/*.bx-wrapper .bx-controls-direction a {
+    background-color: rgba(155, 153, 153, 0.5);
+    border: 1px solid #E9E5E5;
+    height: 100px;
+    margin-top: -56px;
+    outline: 0 none;
+    position: absolute;
+    text-indent: -9999px;
+    top: 50%;
+    transition: all 0.17s ease-in-out 0s;
+    width: 60px;
+    z-index: 9999;
+}*/
+.DownloadBrochure li {
+    width: 55.5%;
+}
+
+}
+
+@media (min-width: 760px) and (max-width: 980px) {
+.navbar-default .navbar-nav > li > a {
+    padding: 40px 0 !important;
+    text-transform: uppercase;
+    transition: all 0.17s ease-in-out 0s;
+}
+.navbar-default .navbar-nav > li:hover > a {
+	padding: 40px 0 !important;
+	}
+	.navbar-nav li:last-child ul {
+    margin: 0 -100px;
+}
+.modern_medium_light i {
+    font-size: 35px;
+}
+.stt h4 {
+    font-size: 13px;
+}
+.tp-caption h3 {
+    font-size: 17px;
+}
+.modern_medium_light {
+    width: 125px;
+}
+.tparrows {
+    margin-top: -35px;
+}
+.text-banner-bg {
+    padding: 8px !important;
+}
+.tp-caption a {
+    padding: 0;
+}
+/*.bx-wrapper .bx-controls-direction a {
+    background-color: rgba(155, 153, 153, 0.5);
+    border: 1px solid #E9E5E5;
+    height: 75px;
+    margin-top: -56px;
+    outline: 0 none;
+    position: absolute;
+    text-indent: -9999px;
+    top: 110%;
+    transition: all 0.17s ease-in-out 0s;
+    width: 55px;
+    z-index: 9999;
+}*/
+.col-md-map {
+    float: left;
+	width:45%;
+}
+.col-md-6-c {
+    width: 50%;
+}
+.banklogo-list li {
+    margin-left: 80px !important;
+	 margin-top: 15px;
+}
+/*.DownloadBrochure li {
+    width: 76%;
+}*/
+.DownloadBrochure li {
+    width: 16%;
+	margin-right: 4.5px !important;
+}
+.credei {
+	  height: 59px;
+    margin-left: 320px;
+    margin-top: 124px;
+    position: absolute;
+    width: 200px;
+}
+.credei:hover {
+   margin-left: 320px;
+    margin-top: 124px ;
+    position: absolute;
+    width: 200px;
+    height: 59px;
+}
+
+.col-md-1,
+  .col-md-2,
+  .col-md-3,
+  .col-md-3-n-s,
+  .col-md-4,
+  .col-md-5,
+  .col-md-6,
+  .col-md-map,
+  .col-md-about-txt,
+  .col-md-about-txt-link,
+  .col-md-6-c,
+  .col-md-7,
+  .col-md-8,
+  .col-md-9,
+  .col-md-10,
+  .col-md-11 {
+    float: left;
+  }
+ 
+.contact-ftr {
+    float: left !important;
+    width: 50%;
+} 
+.up-footer .col-md-3 {
+    float: none;
+}
+
+}
+@media (min-width: 360px) and (max-width: 580px) {
+	.stt h4 {
+    display: none;
+ 	}
+	.tp-caption h3 {
+    font-size: 15px;
+}
+.DownloadBrochure li {
+    width: 122px !important;
+	  margin-right: 45px !important;
+}
+.footer-line a.go-top {
+    margin-top: 47px;
+}
+#slider {
+    margin-top: -36px;
+}
+}
+@media (min-width: 431px) and (max-width: 760px) {
+	.modern_medium_light i {
+    color: #FFFFFF;
+    display: block;
+    font-size: 22px;
+    margin-bottom: 14px;
+    text-align: center;
+}
+.tp-caption a {
+    padding: 0;
+}
+.DownloadBrochure li {
+    border-bottom: 3px solid #F0761C;
+    float: none;
+    margin-bottom: 13px;
+    margin-right: 13px !important;
+    width: 122px;
+}
+}
+@media (max-width: 430px) {
+	.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+.DownloadBrochure li {
+    width: 43%;
+}
+.text-banner-bg {
+    background: none repeat scroll 0 0 rgba(232, 232, 232, 0.8) !important;
+    margin-top: -15px !important;
+    padding: 4px 8px !important;
+}
+.heading {
+    font-size: 12px;
+}
+.sub-heading {
+    font-size: 10px;
+    margin-top: 0;
+}
+	.navbar-default .navbar-nav > li:hover > a {
+	padding: 10px !important;
+	background:rgba(137, 137, 137, 0.5);
+	border-top:#ef7f1a solid 5px;
+	color:#fff !important;
+	}
+	
+	.teamtable {
+		width:100%;
+	}
+	.footersocial ul {
+		float:left;
+	}
+	.tp-caption h3 {
+    font-size: 11px;
+	}
+	.lar-txt {
+    line-height: 15px;
+}
+.stt h4 {
+	display:none;
+}
+.tp-caption a {
+    padding: 0;
+}
+
+.modern_medium_light i {
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.chronicle_icon {
+    float: left;
+    width: 50%;
+}
+.bg-txt .caption {	
+}
+}
