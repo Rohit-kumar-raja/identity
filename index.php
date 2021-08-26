@@ -29,7 +29,7 @@
 <script type="text/javascript" src="js/validation.js"></script>
 <script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script>
-var jq171 = jQuery.noConflict();
+
 </script>
 <script type="text/javascript" src="js/jquery.min.js"></script>
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
